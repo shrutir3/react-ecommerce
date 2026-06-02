@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 64px;
+}
+
+.navbar__actions {
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+    position: relative;
+}
+
+.hero-container__img {
+    width: 100%;
+    height: 500px;
+    opacity: 0.5;
+}
+
+.hero-container__content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container__heading {
+    margin: 0;
+}
