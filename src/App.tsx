@@ -33,6 +33,7 @@ function App() {
             }}
             sx={{ backgroundColor: '#2a2a2e'}}
           />
+          {/* TODO: Add FAB or button when integrating click handler for below actions */}
           <ShoppingCartIcon sx={{ marginLeft: '8px' }} />
           <PersonIcon sx={{ marginLeft: '8px' }}  />
           <ListIcon sx={{ marginLeft: '8px' }}  />
